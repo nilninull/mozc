@@ -874,8 +874,8 @@ Symbol `overlay' and `echo-area' are currently supported.
 
 overlay   - Shows a candidate window in box style close to the point.
 echo-area - Shows a candidate list in the echo area."
-  :type '(choice (symbol :tag "overlaid box style" 'overlay)
-                 (symbol :tag "single line in echo area" 'echo-area))
+  :type '(choice (symbol :tag "overlaid box style" overlay)
+                 (symbol :tag "single line in echo area" echo-area))
   :group 'mozc)
 
 (defvar mozc-candidate-dispatch-table
